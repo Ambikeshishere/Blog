@@ -1,0 +1,131 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0d4ad;
+}
+
+/* Header styles */
+header {
+    background-color: #8c7beb;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+
+header p{
+    font-size: 18px;
+}
+
+header p1 {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 24px;
+}
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #310ff1;
+    padding: 10px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+}
+
+article {
+    background-color: #f3f1ea;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    background-color: #5c4db1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;  
+}
+.contactform{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 0 24px;
+    padding-top: 14px;
+    color: white;
+    
+    
+
+}
+.contactform h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: left;
+    padding: 12px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    
+ 
+}
+
+.contactform form div input{
+    width: 36vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.pic{
+    width:30%;
+    margin-top: 45px;
+    display: block;   
+}
+
+.Intro{
+    display: flex;
+    justify-content: space-around;
+}
+.Intro p {
+    margin-top: 45px;
+    margin-left: 25px;
+    text-align: justify;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
